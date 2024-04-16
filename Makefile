@@ -12,6 +12,10 @@ build:
 run:
 	docker run -d --name $(DOCKER_CONTAINER_NAME) $(DOCKER_IMAGE_NAME)
 
+simulate:
+	docker-compose up -d
+
+
 # Stop and remove the Docker container
 stop:
 	docker stop $(DOCKER_CONTAINER_NAME)
