@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: rocket_sim:latest
+    ports:
+      - 8501:8501
+    command: streamlit run app.py --server.host

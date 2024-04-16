@@ -1,0 +1,1 @@
+## Dumb rocket sim, wanted to make some guys code into a streamlit for something
